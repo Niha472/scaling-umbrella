@@ -1,0 +1,35 @@
+body{
+background: radial-gradient(circle, hsla(312, 100%, 50%, 1) 42%, hsla(168, 100%, 50%, 1) 62%, hsla(234, 100%, 50%, 1) 88%);
+
+}
+#h1{
+    color: #AF2BBF;
+    background-color: #D44D5C;
+    box-shadow: 5px 5px 5px #ce1a2f;
+}
+#cm{
+    background-color: #9E0031;
+    color:#FFFBFF ;
+}
+#niha{
+    background-color: #CE84AD;
+    color: #A01A7D;
+    bottom: 0 ;
+    position: fixed;
+    width: 50%;
+    text-align: center;
+    margin-left: 350px;}
+    canvas{
+        animation-name:example ;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        margin-top: 50px;
+    }
+@keyframes example{
+    from{
+        box-shadow: 5px 5px 5p #000000;
+    }
+    to{
+        box-shadow: 5px 5px 5p #AF2BBF;
+    }
+}
